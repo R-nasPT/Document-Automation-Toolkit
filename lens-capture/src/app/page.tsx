@@ -33,6 +33,7 @@ export default function Home() {
       <Link href="zxing" className="p-3 bg-blue-400 text-white rounded-xl m-5">zxing</Link>
       <Link href="yudiel" className="p-3 bg-blue-400 text-white rounded-xl m-5">yudiel</Link>
       <Link href="zxing-reuse" className="p-3 bg-blue-400 text-white rounded-xl m-5">zxing reuse</Link>
+      <Link href="scan-code" className="p-3 bg-blue-400 text-white rounded-xl m-5">scan-code</Link>
       <br />
       <br />
       <br />
