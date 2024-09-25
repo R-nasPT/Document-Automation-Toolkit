@@ -105,9 +105,9 @@ export default function Scanner({
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="shadow-[0_0_0_500px_rgba(0,0,0,0.4)] relative w-56 h-56 lg:w-40 lg:h-40 rounded-xl">
               {/* Top-left corner */}
-              <div className="absolute top-0 left-0 w-8 h-8 border-t-4 border-l-4 border-white rounded-tl-xl fast-pulse"></div>
+              <div className="absolute top-0 left-0 w-8 h-8 border-t-4 border-l-4 border-white rounded-tl-xl animate-fast-pulse"></div>
               {/* Top-right corner */}
-              <div className="absolute top-0 right-0 w-8 h-8 border-t-4 border-r-4 border-white rounded-tr-xl fast-pulse"></div>
+              <div className="absolute top-0 right-0 w-8 h-8 border-t-4 border-r-4 border-white rounded-tr-xl animate-fast-pulse"></div>
               {/* Bottom-left corner */}
               <div className="absolute bottom-0 left-0 w-8 h-8 border-b-4 border-l-4 border-white rounded-bl-xl fast-pulse"></div>
               {/* Bottom-right corner */}

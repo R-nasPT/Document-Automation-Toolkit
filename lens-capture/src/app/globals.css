@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #000000; /* นำไปใช้ใน tailwind.config.ts*/
+  --foreground: #ff0000;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

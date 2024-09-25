@@ -171,6 +171,8 @@ export default function ZxingReuse() {
   return (
     <>
       <button onClick={handleOpenDialog}>scan</button>
+      <p className="bg-background text-foreground">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, id!</p>
+      <p className="bg-gradient-radial from-purple-300 to-blue-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quaerat?</p>
       <Dialog open={open} onClose={handleCloseDialog} desktop="xs">
         <div className="bg-red-500">
           {isScanning && (
